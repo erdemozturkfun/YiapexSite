@@ -22,8 +22,8 @@ onBeforeUnmount(() => {
 <div class="flex h-full">
     <video  class=" -z-10" ref="vidRef" id="bgvideo"  src="/titlescreen.mp4" autoplay loop>
 		</video>
-	<div class=" inset-0 absolute text-center top-0 w-full h-96 pt-96	">
-		<h1 class="text-9xl text-white drop-shadow-2xl font-bold	">Yiapex'25</h1>
+	<div class=" inset-0 absolute text-center top-0 w-full h-96 md:pt-96	max-sm:pt-40">
+		<h1 class="md:text-9xl max-sm:text-4xl text-white drop-shadow-2xl font-bold	">Yiapex'25</h1>
 	</div>
 </div>
     <div class="bg-gradient-90 animate-gradRotate transition from-neutral-800 to-zinc-900">

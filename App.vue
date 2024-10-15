@@ -1,5 +1,8 @@
 <script setup>
-
+useHead({
+	title: "Yiapex'25 Websitesi",
+	link: [{ rel: "icon", type: "image/png", href: "favicon.ico" }],
+});
 </script>
 <style>
   
