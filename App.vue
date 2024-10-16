@@ -11,8 +11,7 @@ useSeoMeta({
 		"İnovatif şirketlerin inovatif insanlarla buluştuğu etkinlik. YİAPEX",
 	ogDescription:
 		"İnovatif şirketlerin inovatif insanlarla buluştuğu etkinlik. YİAPEX",
-	ogImage:
-		"https://drive.google.com/file/d/1o5ZgnGriaXGOuy5sG1btr78nv40H1Awf/view?usp=sharing",
+	ogImage: "https://pbs.twimg.com/media/FwV_3WxWAAIFW-w?format=jpg&name=large",
 	twitterCard: "summary_large_image",
 	twitterSite: "@yiafl_yiapex",
 	twitterDescription:
@@ -22,6 +21,7 @@ useSeoMeta({
 		"https://pbs.twimg.com/media/FwV_3WxWAAIFW-w?format=jpg&name=large",
 
 	ogLocale: "tr_TR",
+	robots: "notranslate",
 });
 </script>
 <style>
