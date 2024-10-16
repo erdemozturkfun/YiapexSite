@@ -1,7 +1,10 @@
 <script setup>
 useHead({
 	title: "Yiapex'25 Websitesi",
-	link: [{ rel: "icon", type: "image/png", href: "favicon.ico" }],
+	link: [
+		{ rel: "icon", type: "image/png", href: "favicon.ico" },
+		{ rel: "canonical", href: "https://yiapexsite.pages.dev/" },
+	],
 	meta: [{ name: "googlebot-news", content: "nosnippet" }],
 });
 useSeoMeta({
