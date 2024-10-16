@@ -20,7 +20,7 @@ useSeoMeta({
 	twitterTitle: "YIAPEX",
 	twitterImage:
 		"https://pbs.twimg.com/media/FwV_3WxWAAIFW-w?format=jpg&name=large",
-	r,
+
 	ogLocale: "tr_TR",
 });
 </script>
