@@ -19,7 +19,7 @@ useHead({
 <template>
 
 
-    <div class="w-full h-full overflow-x-hidden">
+    <div class="w-full h-full ">
       <NuxtLayout>
         <NuxtPage/>
       </NuxtLayout>
