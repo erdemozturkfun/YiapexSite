@@ -2,6 +2,26 @@
 useHead({
 	title: "Yiapex'25 Websitesi",
 	link: [{ rel: "icon", type: "image/png", href: "favicon.ico" }],
+	meta: [{ name: "googlebot-news", content: "nosnippet" }],
+});
+useSeoMeta({
+	title: "YİAPEX'25 Websitesi",
+	ogTitle: "YİAPEX",
+	description:
+		"İnovatif şirketlerin inovatif insanlarla buluştuğu etkinlik. YİAPEX",
+	ogDescription:
+		"İnovatif şirketlerin inovatif insanlarla buluştuğu etkinlik. YİAPEX",
+	ogImage:
+		"https://drive.google.com/file/d/1o5ZgnGriaXGOuy5sG1btr78nv40H1Awf/view?usp=sharing",
+	twitterCard: "summary_large_image",
+	twitterSite: "@yiafl_yiapex",
+	twitterDescription:
+		"İnovatif şirketlerin inovatif insanlarla buluştuğu etkinlik.",
+	twitterTitle: "YIAPEX",
+	twitterImage:
+		"https://pbs.twimg.com/media/FwV_3WxWAAIFW-w?format=jpg&name=large",
+	r,
+	ogLocale: "tr_TR",
 });
 </script>
 <style>
