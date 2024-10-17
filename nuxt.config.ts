@@ -2,10 +2,7 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: false },
-  site:  {
-    url:"https://yiapexsite.pages.dev",
-    name:"Yiapex'25 Websitesi"
-  },
+ 
 
   app:{
    
@@ -19,8 +16,16 @@ export default defineNuxtConfig({
     '@nuxtjs/robots',
     '@nuxtjs/sitemap'
   ],
+  nitro:{prerender:{
+    crawlLinks:true,
+    routes
+    : ["/sitemap.xml", "/robots.txt"],
+  }},
   pinia: {
     storesDirs: ['./stores/**'],
+  },
+  sitemap:{
+  
   },
   ssr:true
 })
