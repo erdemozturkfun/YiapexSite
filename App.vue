@@ -42,7 +42,7 @@ useSeoMeta({
 <template>
 
 
-    <div class="w-full h-full ">
+    <div class=" ">
 	<Head>
 		<Meta name="google-site-verification" content="_CU3VKmBxrM1gcZxUvewmQ2wK1s6BpdTZZDuMam0VVs" />
 	</Head>

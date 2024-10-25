@@ -25,5 +25,8 @@
 	},
 	"overrides": {
 		"vue": "latest"
+	},
+	"devDependencies": {
+		"tailwindcss-3d": "^1.0.7"
 	}
 }
