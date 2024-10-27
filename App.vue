@@ -7,6 +7,10 @@ useHead({
 	],
 	meta: [{ name: "googlebot-news", content: "nosnippet" }],
 });
+useLoadingIndicator({
+	duration: 2000,
+	throttle: 200,
+});
 useSeoMeta({
 	title: "YİAPEX'25 Websitesi",
 	ogTitle: "YİAPEX",
@@ -14,7 +18,7 @@ useSeoMeta({
 		"İnovatif şirketlerin inovatif insanlarla buluştuğu etkinlik. YİAPEX",
 	ogDescription:
 		"İnovatif şirketlerin inovatif insanlarla buluştuğu etkinlik. YİAPEX",
-	ogImage: "https://pbs.twimg.com/media/FwV_3WxWAAIFW-w?format=jpg&name=large",
+	ogImage: "/fas.png",
 	twitterCard: "summary_large_image",
 	twitterSite: "@yiafl_yiapex",
 	twitterDescription:
@@ -37,7 +41,15 @@ useSeoMeta({
   font-weight: 600;
   font-style: normal;
 }
-
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.4s;
+}
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
+  filter: blur(1rem);
+}
 </style>
 <template>
 

@@ -28,7 +28,8 @@ onMounted(() => {
             <img class="h-12 xl:w-12 bg-transparent    transition " src="/yiapexlogo.svg"/>
           </div>
            <div class="flex flex-row items-center md:ml-96  shadow-2xl gap-x-10 outfit-links rounded-full bg-white px-4">
-            <NuxtLink to="/" class=" transition-all hover:scale-110">Ana Sayfa</NuxtLink> <NuxtLink to="/about" class=" transition-all hover:scale-110">Hakkımızda</NuxtLink> <NuxtLink to="/team" class=" transition-all hover:scale-110">Ekibimiz</NuxtLink> <h1>İletişim</h1></div>
+             <NuxtLink to="/" class=" transition-all hover:scale-110">Ana Sayfa</NuxtLink> <div class="flex flex-col py-4 bg-gradient-15 from-violet-900 to-pink-600 rounded-full px-4  group  transition-all hover:scale-105 cursor-pointer"><h1 class="text-white group-hover:scale-110">YİAPEX</h1>
+              <ul class="flex-col group-hover:visible invisible absolute mt-8 bg-white py-4 rounded-sm  px-6 "><li>Komiteler</li><li>Sponsorlar </li></ul></div> <NuxtLink to="/about" class=" transition-all hover:scale-110">Hakkımızda</NuxtLink>  <NuxtLink to="/contact" class=" transition-all hover:scale-110">İletişim</NuxtLink></div>
             
           </div>
           </div>
