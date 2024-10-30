@@ -19,11 +19,11 @@ import TeamMembers from "~/components/TeamMembers.vue";
         </TeamMembers>
       </div>
           
-      <div class="flex flex-row justify-center gap-x-16">
+      <div class="flex flex-row justify-center max-md:gap-x-4 md:gap-x-16">
         <TeamMembers name="Eren Kaya" title-color="bg-sky-600" status="IT Başkanı" insta-link="https://www.instagram.com/erenkaya1025/" :rotation-delay="200">
           <img src="/fas.png" class="group-hover/item:invisible rounded-3xl group-hover/item:opacity-0 delay-300 " height="200" width="200"/>
         </TeamMembers>
-        <TeamMembers name="Erdem Öztürk" title-color="bg-blue-900" status="Website Tasarımcısı" :rotation-delay="200">
+        <TeamMembers name="Erdem Öztürk" title-color="bg-blue-900" github-link="https://github.com/erdemozturkfun" status="Website Tasarımcısı" :rotation-delay="200">
           <img src="/fas.png" class="group-hover/item:invisible rounded-3xl group-hover/item:opacity-0 delay-300 " height="200" width="200"/>
         </TeamMembers>
         <TeamMembers name="Deniz Özten" title-color="bg-sky-600" status="IT Başkanı"  :rotation-delay="200">
